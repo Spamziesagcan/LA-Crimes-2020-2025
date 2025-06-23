@@ -1,46 +1,36 @@
-# 📓 Notebooks
+# 📓 Jupyter Notebooks – LA Crimes (2020–2025)
 
-This folder contains Jupyter Notebooks used in the **LA Crimes (2020–2025)** project for exploratory data analysis and visualization.
+This folder contains Jupyter notebooks used for exploring and analyzing crime data in Los Angeles from 2020 to 2025.
 
----
+## 📁 Contents
 
-## 📄 Included Notebooks
+| Notebook Name | Description |
+|---------------|-------------|
+| `Crime_Data_Exploration.ipynb` | Initial data exploration, summary statistics, and feature inspection. |
+| `Crime_3D_Visualizations.ipynb` | Advanced 3D visualizations using Plotly (volume, scatter, mesh, etc.). |
+| `Crime_2D_Visualizations.ipynb` | Bar plots, heatmaps, and other 2D visual analysis for crime trends. |
 
-| Filename     | Description                          |
-|--------------|--------------------------------------|
-| `eda.ipynb`  | Initial exploratory data analysis of crime dataset |
+> ✅ Notebooks are modular and can be run independently if data is available.
 
----
+## 📊 Data Source
 
-## 🧰 Tools Used
+The analysis is based on LAPD crime data, cleaned and preprocessed into a structured format.  
+Data columns include:
+- Date & Time of Occurrence
+- Victim Demographics
+- Crime Type
+- Location (Latitude, Longitude)
+- Weapon Used, Area, Status, etc.
 
-- `pandas` — data loading and transformation  
-- `matplotlib` / `seaborn` — visualizations  
-- `sqlite3` — optional SQL integration  
-- `jupyter` — notebook environment  
+## 🧰 Dependencies
 
----
+Run the notebooks in a Python environment with the following key libraries:
+- `pandas`, `numpy`
+- `matplotlib`, `seaborn`
+- `plotly`, `kaleido`
+- `scikit-learn` (for clustering, optional)
 
-## ▶️ How to Run
-
-Make sure Jupyter is installed:
+Install all dependencies with:
 
 ```bash
-pip install notebook
-jupyter notebook
-```
-
-Then open `eda.ipynb` in your browser.
-
----
-
-## 📝 Notes
-
-- This notebook serves as a starting point for data exploration.
-- More analysis notebooks will be added as the project evolves.
-
----
-
-## ✅ Status
-
-🟢 Active — notebooks will be updated as deeper insights are developed.
+pip install -r ../requirements.txt
