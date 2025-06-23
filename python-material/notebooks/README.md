@@ -6,9 +6,7 @@ This folder contains Jupyter notebooks used for exploring and analyzing crime da
 
 | Notebook Name | Description |
 |---------------|-------------|
-| `Crime_Data_Exploration.ipynb` | Initial data exploration, summary statistics, and feature inspection. |
-| `Crime_3D_Visualizations.ipynb` | Advanced 3D visualizations using Plotly (volume, scatter, mesh, etc.). |
-| `Crime_2D_Visualizations.ipynb` | Bar plots, heatmaps, and other 2D visual analysis for crime trends. |
+| `EDA.ipynb` | Initial data exploration, summary statistics, and feature inspection, Bar plots, heatmaps, and other 2D visual analysis for crime trends,  Advanced 3D visualizations using Plotly (volume, scatter, mesh, etc.). |
 
 > ✅ Notebooks are modular and can be run independently if data is available.
 
@@ -28,9 +26,5 @@ Run the notebooks in a Python environment with the following key libraries:
 - `pandas`, `numpy`
 - `matplotlib`, `seaborn`
 - `plotly`, `kaleido`
-- `scikit-learn` (for clustering, optional)
 
-Install all dependencies with:
 
-```bash
-pip install -r ../requirements.txt
