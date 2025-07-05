@@ -153,5 +153,4 @@ jupyter notebook
 
 ## 👤 Author
 Harsh Chandramania
-🔗 [LinkedIn]([https://www.linkedin.com/in/your-username/](https://www.linkedin.com/in/harsh-chandramaniaia-427ab4324/))
 📫 Reach out for collaborations, internships, or dashboard consulting.
