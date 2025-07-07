@@ -40,9 +40,8 @@ LA-Crimes-2020-2025/
 │
 ├── notebooks/
 │ ├── eda.ipynb
-│ ├── time_series_forecasting.ipynb
+│ ├── time_series_analysis.ipynb
 │ ├── geospatial_analysis.ipynb
-│ └── prophet_forecasting.ipynb
 │
 ├── visuals/
 │ └── powerbi_dashboard.pbix
