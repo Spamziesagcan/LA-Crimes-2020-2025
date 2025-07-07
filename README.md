@@ -29,24 +29,20 @@ A full-stack data analytics and forecasting project using **Los Angeles crime da
 ## 🧱 Project Structure
 
 LA-Crimes-2020-2025/
-│
 ├── data/
-│ ├── cleaned_crime.csv
-│ └── shapefiles/ (LAPD divisions & districts)
-│
+│   ├── cleaned_crime.csv
+│   └── shapefiles/ (LAPD divisions & districts)
 ├── sql/
-│ ├── crimes_table_schema.sql
-│ └── mysql_import_script.sql
-│
+│   ├── crimes_table_schema.sql
+│   └── mysql_import_script.sql
 ├── notebooks/
-│ ├── eda.ipynb
-│ ├── time_series_analysis.ipynb
-│ ├── geospatial_analysis.ipynb
-│
+│   ├── eda.ipynb
+│   ├── time_series_analysis.ipynb
+│   └── geospatial_analysis.ipynb
 ├── visuals/
-│ └── powerbi_dashboard.pbix
-│
+│   └── powerbi_dashboard.pbix
 └── README.md
+
 
 
 ---
