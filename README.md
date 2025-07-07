@@ -26,22 +26,23 @@ A full-stack data analytics and forecasting project using **Los Angeles crime da
 
 ---
 
-## 🧱 Project Structure
+## 🧱 Project Structure (Tabular Format)
 
-LA-Crimes-2020-2025/
-├── data/
-│   ├── cleaned_crime.csv
-│   └── shapefiles/ (LAPD divisions & districts)
-├── sql/
-│   ├── crimes_table_schema.sql
-│   └── mysql_import_script.sql
-├── notebooks/
-│   ├── eda.ipynb
-│   ├── time_series_analysis.ipynb
-│   └── geospatial_analysis.ipynb
-├── visuals/
-│   └── powerbi_dashboard.pbix
-└── README.md
+| Folder / File               | Description                          |
+|----------------------------|--------------------------------------|
+| `/data/`                   | Contains datasets and shapefiles     |
+| ├── `cleaned_crime.csv`    | Cleaned LA crime data (2020–2025)    |
+| └── `shapefiles/`          | LAPD divisions & reporting districts |
+| `/sql/`                    | SQL scripts for DB schema and import |
+| ├── `crimes_table_schema.sql` | Table creation DDL                 |
+| └── `mysql_import_script.sql` | Script to import CSV into MySQL   |
+| `/notebooks/`              | Jupyter notebooks for analysis       |
+| ├── `eda.ipynb`            | Exploratory Data Analysis            |
+| ├── `time_series_analysis.ipynb` | TSA with ARIMA, SARIMAX, Prophet |
+| └── `geospatial_analysis.ipynb` | GeoPandas + shapefile analysis   |
+| `/visuals/`                | Dashboard and result exports         |
+| └── `powerbi_dashboard.pbix` | Final interactive dashboard file   |
+| `README.md`                | Project documentation (this file)    |
 
 
 
